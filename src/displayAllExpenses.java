@@ -9,7 +9,7 @@ public class displayAllExpenses {
     	double totExp = 0;
     	while(currentE != null) {    
             //Calculates total expenses.  
-            totExp = totExp + currentE.money;    
+            totExp = toExp + currentE.money;    
             currentE = currentE.next;    
         }
     	System.out.println("Your total expenses are: $" + totExp);
